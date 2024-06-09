@@ -74,9 +74,9 @@ Para organizar su trabajo, les recomendamos usar el tablero de Trello que hemos 
 
 Para cualquier duda o consulta, pueden contactarme atrtavéz de mis redes sociales:
 
-- [LinkedIn]([https://www.linkedin.com/in/tu-usuario](https://www.linkedin.com/in/alejandromalacaramartinez/))
-- [Instagram]([https://twitter.com/tu-usuario](https://www.instagram.com/alejandrom.a.m/))
-- [GitHub]([https://github.com/tu-usuario](https://github.com/alejandromam))
+- [LinkedIn](https://www.linkedin.com/in/alejandromalacaramartinez/)
+- [Instagram](https://www.instagram.com/alejandrom.a.m/))
+- [GitHub](https://github.com/alejandromam)
 
 ---
 
