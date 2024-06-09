@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <title>
+        ❤️❤️❤️ Alura Geek</title>
+</head>
+
+<body>
+    <section class="titulo">
+        <img src="/img/corazones.svg" alt="">
+        <h1> Alura Geek</h1>
+    </section>
+    <section class="main">
+
+        <div class="bk">
+        </div>
+        <div class="supercontenedor">
+
+            <section class="productos__contenedor">
+                <div class="productos__titulo">
+                    <h2>MIS PRODUCTOS</h2>
+                </div>
+                <ul class="productos__cards" data-lista>
+                </ul>
+                <span class="productos__mensaje" data-msj></span>
+            </section>
+            <section class="formproductos_contenedor">
+                <div class="formproductos__titulo">
+                    <h2>AGREGAR PRODUCTOS</h2>
+                </div>
+                <div class="formproductos__formulario">
+                    <form class="formproductos__form" name="formproductos__form" id="formproductos__form"
+                        data-formumario>
+                        <input class="formproductos__input" id="nombre" type="text" name="nombre"
+                            placeholder="Nombre:" maxlength="50" data-nombre required>
+                        <span class="nombre__mensajeError error"></span>
+                        <input class="formproductos__input" id="precio" type="number" name="precio"
+                            placeholder="Precio:" data-precio required>
+                        <span class="precio__mensajeError error"></span>
+                        <input class="formproductos__input" id="imagen" type="url" name="imagen"
+                            placeholder="Imagen: " data-imagen required>
+                        <span class="imagen__mensajeError error"></span>
+                        <div class="formproductos__botones">
+                            <button type="submit" class="formcontacto__boton__enviar">Enviar</button>
+                            <button class="formcontacto__boton__limpiar"
+                                id="formcontacto__boton__limpiar">Limpiar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="footer">
+
+        <div class="logo_alurageek">
+            <img class="logo_alurageek__img" src="/img/corazones.svg" alt="">
+            <p class="logo_alurageek__texto">Alura Geek</p>
+
+        </div>
+
+        <p class="desarollador">Desarollado por Alejandro Malacara Martínez</p>
+        <p class="cliente">ALURA LATAM 2024</p>
+    </section>
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>

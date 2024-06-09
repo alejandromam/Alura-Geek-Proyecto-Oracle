@@ -1,0 +1,29 @@
+{
+  "__single": true,
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Funko Pop! Twenty One Pilots",
+      "precio": "404",
+      "imagen": "https://m.media-amazon.com/images/I/61-6SoTXMFL._AC_SL1300_.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Marvel La Enciclopedia",
+      "precio": "36.80",
+      "imagen": "https://m.media-amazon.com/images/I/91PtUPFgZdL._SL1500_.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Llavero de Batman",
+      "precio": "149",
+      "imagen": "https://www.lego.com/cdn/cs/set/assets/blt3026375a1d0cbd0c/854235.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1"
+    },
+    {
+      "id": "cebf",
+      "nombre": "R2-D2",
+      "precio": "2599",
+      "imagen": "https://www.lego.com/cdn/cs/set/assets/blt1dbcc5584e0e1f47/75379_alt2.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1"
+    }
+  ]
+}

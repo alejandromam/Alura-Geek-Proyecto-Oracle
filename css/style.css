@@ -1,0 +1,439 @@
+body {
+    background-image: url(/img/bk.jpg);
+    font-family: "IBM Plex Mono";
+    box-sizing: border-box;
+}
+
+.titulo {
+    background-color: #3d407a5a;
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Press Start 2P";
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 69vh;
+}
+
+
+.bk {
+    position: relative;
+    top: 54vh;
+    height: 14vw;
+    background-image: url(/img/bk.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+}
+
+.supercontenedor {
+    z-index: 2;
+    display: flex;
+    height: 100vh;
+}
+
+
+.productos__contenedor {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 10PX;
+    width: 50vw;
+    height: 50vh;
+}
+
+.productos__titulo {
+    align-self: center;
+    padding: 10px 0;
+    font-family: "Press Start 2P";
+    font-size: 15px;
+    color: white;
+}
+
+.productos__cards {
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px;
+    gap: 15px;
+}
+
+
+.productos__cards::-webkit-scrollbar {
+    background: #00000000;
+}
+
+.productos__cards::-webkit-scrollbar-thumb {
+    background: #0a095a67;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    border-color: #d11414;
+    border-style: solid;
+    width: 196px;
+    height: 258px;
+    border: 4px;
+    border-radius: 15px;
+    gap: 4px;
+}
+
+.card img {
+    max-width: 85%;
+    max-height: 150px;
+    padding: 4px 2px;
+}
+
+.card-container--info {
+    width: 90%;
+}
+
+.card-container--value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container--value img {
+    width: 1.5em;
+}
+
+.boton_borrar{
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    background: transparent;
+    border-radius: 42px;
+    border: transparent;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+  
+    font-weight: bold;
+    padding: 5px 5px;
+}
+
+.boton_borrar:hover{
+    background: rgba(157, 18, 18, 0.665);
+}
+
+.boton_borrar:active{
+box-shadow: inset 3px 4px 0px 1px rgba(50, 5, 5, 0.665);
+}
+
+.productos__mensaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.productos__mensaje h1 {
+    width: 50%;
+    font-family: "Press Start 2P";
+    color: rgb(212, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.formproductos_contenedor {
+    overflow: -moz-hidden-unscrollable;
+    display: flex;
+    flex-direction: column;
+    padding: 10PX 0;
+    width: 30vw;
+    height: 50vh;
+}
+
+
+.formproductos__titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 40px 0;
+    font-family: "Press Start 2P";
+    font-size: 15px;
+    color: white;
+    gap: 20px;
+}
+
+.formproductos__form {
+    margin-top: 10%;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.formproductos__input {
+    width: -webkit-fill-available;
+    height: 2.5rem;
+    border-radius: 20px;
+    padding: 3px 0 0 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 30px 0;
+}
+
+.error {
+    font-size: 80%;
+    padding: 0;
+    color: red;
+    font-weight: bold;
+}
+
+.formproductos__botones {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    gap: 40px;
+}
+
+.formcontacto__boton__enviar {
+    height: 50px;
+    background-color: #4D4DFF;
+    border-radius: 15px;
+    border: 4px solid #0b36c3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-shadow: 3px 1px 0px #5b8a3c;
+}
+
+.formcontacto__boton__enviar:hover {
+    background-color: #02a2be;
+}
+
+.formcontacto__boton__enviar:active {
+    box-shadow: inset 3px 4px 0px 1px #0b36c3;
+}
+
+.formcontacto__boton__limpiar {
+    background-color: #ff6731;
+    border-radius: 15px;
+    border: 4px solid #ff7300;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.formcontacto__boton__limpiar:hover {
+    background: linear-gradient(to bottom, #eb675e 5%, #e4685d 100%);
+    background-color: #eb675e;
+}
+
+.formcontacto__boton__limpiar:active {
+    box-shadow: inset 3px 4px 0px 1px #931f15;
+}
+
+
+.footer {
+    background-image: linear-gradient(#13174bd1, #000000);
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+.logo_alurageek {
+    display: flex;
+    align-items: center;
+}
+
+.logo_alurageek__img {
+    width: 5rem;
+}
+
+.logo_alurageek__texto {
+    font-family: "Press Start 2P";
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.desarollador,
+.cliente {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*FULL SCREEN HD 4K SUBTITULOS EN KOREANO*/
+@media (min-width: 1440px) {
+    .main {
+        height: 70vh;
+    }
+
+    .supercontenedor {
+        width: 80vw;
+    }
+
+    .footer {
+        height: 15vh;
+    }
+}
+
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+    .titulo {
+        font-size: 14px;
+    }
+
+    .main {
+        height: 65vh;
+    }
+
+
+    .productos__contenedor {
+        width: 60vw;
+    }
+
+    .formproductos__titulo {
+        flex-direction: column;
+    }
+
+    .formproductos__input {
+        margin: 0 10px 0;
+    }
+
+    .formproductos__botones {
+        gap: 25px;
+    }
+
+    .formcontacto__boton__enviar,
+    .formcontacto__boton__limpiar {
+        transform: scale(0.8);
+    }
+
+    .footer {
+        height: 11vh;
+    }
+}
+
+
+/*Mobil*/
+@media (max-width: 425px) {
+    .titulo {
+        height: 3vh;
+    }
+
+    .titulo img {
+        width: 5rem;
+    }
+
+    .main {
+        height: 86vh;
+    }
+
+    .bk {
+        height: 81vh;
+    }
+
+
+    .supercontenedor {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .productos__contenedor {
+        width: 95vw;
+        height: 45vh;
+        padding: 0;
+    }
+
+    .productos__titulo {
+        font-size: 12px;
+    }
+
+    .formproductos_contenedor {
+        width: 95vw;
+        height: auto;
+        align-items: center;
+
+    }
+
+    .formproductos__titulo {
+        font-size: 13px;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .formproductos__formulario {
+        padding: 10px 0;
+    }
+
+    .formproductos__form {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .formproductos__input {
+        height: 1.8rem;
+    }
+
+    .error {
+        font-size: 70%;
+    }
+
+    .formproductos__botones {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .footer {
+        padding: 0 0 3px 0;
+        height: 10vh;
+        gap: 5px;
+    }
+
+    .logo_alurageek__img {
+        width: 3.5rem;
+    }
+
+    .logo_alurageek__texto {
+        font-size: 10px;
+
+    }
+
+    .desarollador,
+    .cliente {
+
+        font-size: 15px;
+    }
+
+}
